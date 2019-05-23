@@ -15,5 +15,8 @@
     "inquirer": "^6.2.2",
     "mathjs": "^5.9.0",
     "word-wrap": "^1.2.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^6.0.3"
   }
 }

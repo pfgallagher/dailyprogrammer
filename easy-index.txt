@@ -1,5 +1,3 @@
-https://www.reddit.com/r/dailyprogrammer/comments/y26pr/8102012_challenge_87_easy_rectangle_intersection/
-
 https://www.reddit.com/r/dailyprogrammer/comments/y5sox/8132012_challenge_88_easy_vigenère_cipher/
 
 https://www.reddit.com/r/dailyprogrammer/comments/yj2zq/8202012_challenge_89_easy_simple_statistical/

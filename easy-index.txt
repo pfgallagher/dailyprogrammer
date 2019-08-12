@@ -1,5 +1,3 @@
-https://www.reddit.com/r/dailyprogrammer/comments/ynw53/8222012_challenge_90_easy_walkaround_rasterizer/
-
 https://www.reddit.com/r/dailyprogrammer/comments/yqydh/8242012_challenge_91_easy_sleep_sort/
 
 https://www.reddit.com/r/dailyprogrammer/comments/ywlvf/8272012_challenge_92_easy_digital_number_display/

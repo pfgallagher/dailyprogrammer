@@ -1,0 +1,11 @@
+{
+	"logins": [{
+			"username": "thisIsATest",
+			"password": "thisIsAlsoATest"
+		},
+		{
+			"username": "thisIsAnotherTest",
+			"password": "thisIsAlsoAnotherTest"
+		}
+	]
+}

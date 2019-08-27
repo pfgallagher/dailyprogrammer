@@ -1,3 +1,4 @@
+"use strict";
 var __read = (this && this.__read) || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
@@ -18,7 +19,15 @@ var __spread = (this && this.__spread) || function () {
     for (var ar = [], i = 0; i < arguments.length; i++) ar = ar.concat(__read(arguments[i]));
     return ar;
 };
-var popCount = function (num) {
-    return __spread(num.toString(2)).reduce(function (acc, cur) { return (cur === "1" ? ++acc : acc); }, 0);
+exports.__esModule = true;
+var range = function (min, max) {
+    return Array(max - min + 1)
+        .fill(0)
+        .map(function (el, idx) { return idx + min; });
 };
-console.log(popCount(23));
+var nonRepeatingYears = function (yearOne, yearTwo) {
+    return range(yearOne, yearTwo).filter(function (year) {
+        return __spread(year.toString()).every(function (char, i, arr) { return arr.indexOf(char) === arr.lastIndexOf(char); });
+    });
+};
+console.log(nonRepeatingYears(1980, 1987));

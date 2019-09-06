@@ -33,3 +33,9 @@ export const intersect = (arrOne: any[], arrTwo: any[]) =>
 
 export const difference = (arrOne: any[], arrTwo: any[]) =>
 	arrTwo.filter(el => !arrOne.includes(el));
+
+export const chunkArr = <T>(arr: T[], size: number): T[] | T[][] => {
+	const newArr = arr.slice();
+	const chunk = newArr.splice(0, size);
+	return chunk.length ? [chunk].concat(chunkArr(newArr, size)) : newArr;
+};

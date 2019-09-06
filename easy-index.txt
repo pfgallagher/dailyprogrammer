@@ -1,5 +1,3 @@
-https://www.reddit.com/r/dailyprogrammer/comments/122c4t/10252012_challenge_107_easy_all_possible_decodings/
-
 https://www.reddit.com/r/dailyprogrammer/comments/1268t4/10272012_challenge_108_easy_scientific_notation/
 
 https://www.reddit.com/r/dailyprogrammer/comments/12csk7/10302012_challenge_109_easy_digits_check/

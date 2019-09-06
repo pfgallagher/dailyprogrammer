@@ -16,6 +16,8 @@
     "fs": "0.0.2",
     "inquirer": "^6.5.0",
     "mathjs": "^6.0.4",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.2",
     "word-wrap": "^1.2.3"
   },
   "devDependencies": {

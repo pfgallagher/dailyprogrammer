@@ -15,7 +15,6 @@ export const strPermutations = (str: string | string[]): string[] => {
 		const newStr = [...str.slice()];
 		const splicedStr = newStr.splice(i, 1);
 		strPermutations(newStr).forEach(el => {
-			console.log(splicedStr.concat(el).join(""));
 			set.add(splicedStr.concat(el).join(""));
 		});
 	});

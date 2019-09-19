@@ -1,5 +1,3 @@
-https://www.reddit.com/r/dailyprogrammer/comments/16jiuq/011413_challenge_117_easy_hexdump_to_ascii/
-
 https://www.reddit.com/r/dailyprogrammer/comments/16z9oj/012113_challenge_118_easy_date_localization/
 
 https://www.reddit.com/r/dailyprogrammer/comments/17f3y2/012813_challenge_119_easy_change_calculator/

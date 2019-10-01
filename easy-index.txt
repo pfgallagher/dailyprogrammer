@@ -1,7 +1,3 @@
-https://www.reddit.com/r/dailyprogrammer/comments/1ds3sn/050613_challenge_124_easy_newline_troubles/
-
-https://www.reddit.com/r/dailyprogrammer/comments/1dsyrk/050613_challenge_124_easy_edge_sorting/
-
 https://www.reddit.com/r/dailyprogrammer/comments/1e97ob/051313_challenge_125_easy_word_analytics/
 
 https://www.reddit.com/r/dailyprogrammer/comments/1epasu/052013_challenge_126_easy_realworld_merge_sort/

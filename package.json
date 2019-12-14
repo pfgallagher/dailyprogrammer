@@ -11,6 +11,7 @@
   "dependencies": {
     "@types/faker": "^4.1.7",
     "@types/node": "^12.12.7",
+    "@types/pngjs": "^3.4.0",
     "@types/uuid": "^3.4.6",
     "@types/winston": "^2.4.4",
     "@types/word-wrap": "^1.2.1",
@@ -20,6 +21,7 @@
     "fs": "0.0.2",
     "inquirer": "^7.0.0",
     "mathjs": "^6.2.3",
+    "pngjs": "^3.4.0",
     "ts-node": "^8.5.0",
     "typescript": "^3.7.2",
     "uuid": "^3.3.3",

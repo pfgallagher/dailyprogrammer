@@ -38,3 +38,15 @@ export const chunkArr = <T>(arr: T[], size: number): T[] | T[][] => {
 	const chunk = newArr.splice(0, size);
 	return chunk.length ? [chunk].concat(chunkArr(newArr, size)) : newArr;
 };
+
+export const transpose = <T>(arr: T[][]): T[][] => {
+	const transposed: T[][] = [
+		...Array(Math.max(...arr.map(el => el.length))),
+	].map(() => []);
+	arr.forEach(rowOrCol => {
+		rowOrCol.forEach((cell, i) => {
+			transposed[i].push(cell);
+		});
+	});
+	return transposed;
+};

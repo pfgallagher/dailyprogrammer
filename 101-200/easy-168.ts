@@ -1,5 +1,5 @@
 import * as faker from "faker";
-import { range } from "./lib/util";
+import { range } from "../lib/util";
 
 const randomScore = (): number => Math.round(Math.random() * 100);
 

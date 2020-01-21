@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-var util_1 = require("./lib/util");
+var util_1 = require("../lib/util");
 /*
     As the problem specifies, this is a repeat of easy-012. My original
     solution already satisified the bonus challenges, and I've already converted

@@ -1,5 +1,5 @@
 import { promises } from "fs";
-import { difference } from "./lib/util";
+import { difference } from "../lib/util";
 
 const unscrambler = async (word: string) => {
 	const validWords = await promises.readFile("./easy-105-data.txt", "utf-8");

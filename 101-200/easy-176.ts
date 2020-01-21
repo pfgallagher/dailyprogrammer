@@ -1,4 +1,4 @@
-import { range } from "./lib/util";
+import { range } from "../lib/util";
 
 const generateLetterRange = (start: string, end: string): string[] => {
 	const alphabetArr = [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"];

@@ -1,23 +1,23 @@
 "use strict";
 var __read = (this && this.__read) || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
-    if (!m) return o;
+    if (!m) { return o; }
     var i = m.call(o), r, ar = [], e;
     try {
-        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) { ar.push(r.value); }
     }
     catch (error) { e = { error: error }; }
     finally {
         try {
-            if (r && !r.done && (m = i["return"])) m.call(i);
+            if (r && !r.done && (m = i.return)) { m.call(i); }
         }
-        finally { if (e) throw e.error; }
+        finally { if (e) { throw e.error; } }
     }
     return ar;
 };
 exports.__esModule = true;
 // This is pretty close to easy-102, but here is the solution:
-var util_1 = require("./lib/util");
+var util_1 = require("../lib/util");
 var roll = function (n) { return Math.ceil(Math.random() * n); };
 var rollDice = function (notation) {
     var _a = __read(notation.match(/(\d*)d(\d+)/), 3), rollNum = _a[1], dieSides = _a[2];

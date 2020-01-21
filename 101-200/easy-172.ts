@@ -1,5 +1,5 @@
 import { promises } from "fs";
-import { chunkArr } from "./lib/util";
+import { chunkArr } from "../lib/util";
 
 const createBitmapHeader = (input: string): string => {
 	const format = "P1";

@@ -1,4 +1,4 @@
-import { range } from "./lib/util";
+import { range } from "../lib/util";
 
 const factorial = (n: number): number =>
 	n > 0 ? range(1, n).reduce((a, c) => (a *= c)) : 1;

@@ -1,4 +1,4 @@
-import { range } from "./lib/util";
+import { range } from "../lib/util";
 
 const test = (day: number): number =>
 	!(day % 3) || !(day % 100) || !(day % 14) ? 0 : 1;

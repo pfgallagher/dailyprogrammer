@@ -1,4 +1,4 @@
-import { chunkArr } from "./lib/util";
+import { chunkArr } from "../lib/util";
 
 const priceArrToPriceObj = (arr: string[]): { [key: string]: string } =>
 	Object.fromEntries(arr.map(nameAndPrice => nameAndPrice.split(" ")));

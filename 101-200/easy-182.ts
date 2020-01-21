@@ -1,6 +1,6 @@
 import { promises } from "fs";
 import wrap from "word-wrap";
-import { chunkArr } from "./lib/util";
+import { chunkArr } from "../lib/util";
 
 const textIntoColumns = async (
 	colNum: number,

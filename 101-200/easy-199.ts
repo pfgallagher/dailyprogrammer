@@ -1,4 +1,4 @@
-import { transpose } from "./lib/util";
+import { transpose } from "../lib/util";
 
 const numberToASCIIMap: { [key: string]: string } = {
 	"0": " _ \n| |\n|_|",

@@ -1,5 +1,5 @@
 import { promises } from "fs";
-import { chunkArr } from "./lib/util";
+import { chunkArr } from "../lib/util";
 
 const toHexString = (n: number): string => n.toString(16).toUpperCase();
 

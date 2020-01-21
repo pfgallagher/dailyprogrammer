@@ -1,5 +1,5 @@
 // This is pretty close to easy-102, but here is the solution:
-import { range } from "./lib/util";
+import { range } from "../lib/util";
 
 const roll = (n: number): number => Math.ceil(Math.random() * n);
 

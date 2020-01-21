@@ -1,4 +1,4 @@
-import { range } from "./lib/util";
+import { range } from "../lib/util";
 
 const isCellFilled = (x: number, y: number): boolean => {
 	while (x > 0 || y > 0) {

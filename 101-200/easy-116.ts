@@ -1,4 +1,4 @@
-import { strPermutations } from "./lib/util";
+import { strPermutations } from "../lib/util";
 
 /* 
 	As the problem specifies, this is a repeat of easy-012. My original

@@ -1,4 +1,4 @@
-import { range } from "./lib/util";
+import { range } from "../lib/util";
 
 const findTornNums = () =>
 	range(1, 99)

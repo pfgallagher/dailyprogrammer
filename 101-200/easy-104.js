@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-var util_1 = require("./lib/util");
+var util_1 = require("../lib/util");
 var test = function (day) {
     return !(day % 3) || !(day % 100) || !(day % 14) ? 0 : 1;
 };

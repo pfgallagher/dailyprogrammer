@@ -1,5 +1,5 @@
 import * as inquirer from "inquirer";
-import { range } from "./lib/util";
+import { range } from "../lib/util";
 
 const selectRandomEl = (arr: any[]): number =>
 	Math.floor(Math.random() * arr.length);

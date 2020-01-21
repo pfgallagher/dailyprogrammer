@@ -1,4 +1,4 @@
-import { transpose } from "./lib/util";
+import { transpose } from "../lib/util";
 
 const sumStrings = (terms: string[]): number =>
 	terms.map(term => parseInt(term, 10)).reduce((acc, cur) => acc + cur);

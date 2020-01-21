@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-var util_1 = require("./lib/util");
+var util_1 = require("../lib/util");
 var factorial = function (n) {
     return n > 0 ? util_1.range(1, n).reduce(function (a, c) { return (a *= c); }) : 1;
 };

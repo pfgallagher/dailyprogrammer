@@ -50,3 +50,17 @@ export const transpose = <T>(arr: T[][]): T[][] => {
 	});
 	return transposed;
 };
+
+export const mean = (dataArr: number[]): number =>
+	dataArr.reduce((acc, cur) => acc + cur, 0) / dataArr.length;
+
+export const variance = (dataArr: number[]): number => {
+	const dataMean = mean(dataArr);
+	return (
+		dataArr.reduce((acc, cur) => acc + (dataMean - cur) ** 2, 0) /
+		dataArr.length
+	);
+};
+
+export const standardDeviation = (dataArr: number[]): number =>
+	Math.sqrt(variance(dataArr));

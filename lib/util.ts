@@ -64,3 +64,15 @@ export const variance = (dataArr: number[]): number => {
 
 export const standardDeviation = (dataArr: number[]): number =>
 	Math.sqrt(variance(dataArr));
+
+export const shuffle = <T>(input: T[]): T[] => {
+	const shuffledInput = input;
+	for (let i = 0; i < input.length; i++) {
+		const randomI = Math.floor(Math.random() * i);
+		[shuffledInput[i], shuffledInput[randomI]] = [
+			shuffledInput[randomI],
+			shuffledInput[i],
+		];
+	}
+	return shuffledInput;
+};

@@ -76,3 +76,11 @@ export const shuffle = <T>(input: T[]): T[] => {
 	}
 	return shuffledInput;
 };
+
+export const gcd = (a: number, b: number): number =>
+	b > 0 ? gcd(b, a % b) : a;
+
+export const lcm = (a: number, b: number): number => (a * b) / gcd(a, b);
+
+export const lcmOfArray = (arr: number[]): number =>
+	arr.reduce((acc, cur) => lcm(acc, cur));

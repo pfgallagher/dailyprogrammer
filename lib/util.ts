@@ -21,6 +21,20 @@ export const strPermutations = (str: string | string[]): string[] => {
 	return [...set];
 };
 
+export const combinations = <T>(options: T[], length: number): T[][] => {
+	if (length === 1) {
+		return options.map(option => [option]);
+	}
+	const combos: T[][] = [];
+	options.forEach((option, i) => {
+		const subCombos = combinations(options.slice(i + 1), length - 1);
+		subCombos.forEach((subCombo: T[]) => {
+			combos.push([option].concat(subCombo));
+		});
+	});
+	return combos;
+};
+
 export const union = (arrOne: any[], arrTwo: any[]) => [
 	...new Set([...arrOne, ...arrTwo]),
 ];

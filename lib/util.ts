@@ -98,3 +98,23 @@ export const lcm = (a: number, b: number): number => (a * b) / gcd(a, b);
 
 export const lcmOfArray = (arr: number[]): number =>
 	arr.reduce((acc, cur) => lcm(acc, cur));
+
+export const isPrime = (num: number): boolean => {
+	for (let i = 2; i <= Math.sqrt(num); i++) {
+		if (!(num % i)) {
+			return false;
+		}
+	}
+	return true;
+};
+
+export const primeFactorialize = (num: number): number[] => {
+	const factors: number[] = [];
+	for (let i = 2; i <= num; i++) {
+		while (isPrime(i) && !(num % i)) {
+			factors.push(i);
+			num /= i;
+		}
+	}
+	return factors;
+};

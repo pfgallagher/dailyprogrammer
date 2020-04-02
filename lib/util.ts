@@ -118,3 +118,9 @@ export const primeFactorialize = (num: number): number[] => {
 	}
 	return factors;
 };
+
+export const zip = <T>(...[arr, ...rest]: T[][]): T[][] => {
+	return arr
+		.map((el, i) => rest.reduce((a, c) => [...a, c[i]], [el]))
+		.filter(zippedArr => zippedArr.every(el => el));
+};

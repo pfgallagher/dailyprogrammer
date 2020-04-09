@@ -124,3 +124,13 @@ export const zip = <T>(...[arr, ...rest]: T[][]): T[][] => {
 		.map((el, i) => rest.reduce((a, c) => [...a, c[i]], [el]))
 		.filter(zippedArr => zippedArr.every(el => el));
 };
+
+export const divmod = (a: number, b: number): [number, number] => [
+	Math.floor(a / b),
+	a % b,
+];
+
+export const distance = (
+	[firstX, firstY]: [number, number],
+	[secondX, secondY]: [number, number],
+): number => ((firstX - secondX) ** 2 + (firstY - secondY) ** 2) ** 0.5;

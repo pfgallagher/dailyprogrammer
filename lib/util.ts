@@ -134,3 +134,14 @@ export const distance = (
 	[firstX, firstY]: [number, number],
 	[secondX, secondY]: [number, number],
 ): number => ((firstX - secondX) ** 2 + (firstY - secondY) ** 2) ** 0.5;
+
+export const getMajorDiagonals = <T>(arr: T[][]): T[][] =>
+	arr.reduce<T[][]>(
+		([a, b], _, i) => [
+			[...a, arr[i][i]],
+			[...b, arr[i][arr.length - 1 - i]],
+		],
+		[[], []],
+	);
+
+export const sum = (arr: number[]): number => arr.reduce((a, c) => a + c, 0);

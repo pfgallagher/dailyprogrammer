@@ -1,5 +1,3 @@
-https://www.reddit.com/r/dailyprogrammer/comments/4fc896/20160418_challenge_263_easy_calculating_shannon/
-
 https://www.reddit.com/r/dailyprogrammer/comments/4gc24w/20160425_challenge_264_easy_sort_my_code/
 
 https://www.reddit.com/r/dailyprogrammer/comments/4hhiu8/20160502_challenge_265_easy_permutations_and/

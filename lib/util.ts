@@ -145,3 +145,18 @@ export const getMajorDiagonals = <T>(arr: T[][]): T[][] =>
 	);
 
 export const sum = (arr: number[]): number => arr.reduce((a, c) => a + c, 0);
+
+export const frequency = (
+	arr: (string | number)[],
+): { [key: string]: number } => {
+	const result: { [key: string]: number } = {};
+	for (const el of arr) {
+		const key = typeof el === "number" ? el.toString() : el;
+		if (result[key]) {
+			result[key]++;
+		} else {
+			result[key] = 1;
+		}
+	}
+	return result;
+};

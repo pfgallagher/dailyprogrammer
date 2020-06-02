@@ -160,3 +160,12 @@ export const frequency = (
 	}
 	return result;
 };
+
+export const basicDeepCopy = <T>(itemToCopy: T): T =>
+	JSON.parse(JSON.stringify(itemToCopy));
+
+export const basicDeepReverse = <T>(arr: T[]): T[] =>
+	basicDeepCopy(arr).reverse();
+
+export const posIdxFromNegIdx = <T>(arr: T[], i: number): number =>
+	arr.length - i - 1;

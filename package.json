@@ -23,9 +23,11 @@
     "mathjs": "^6.2.3",
     "pngjs": "^3.4.0",
     "snoowrap": "^1.21.0",
+    "tonegenerator": "^0.3.2",
     "ts-node": "^8.5.0",
     "typescript": "^3.9.3",
     "uuid": "^3.3.3",
+    "waveheader": "0.0.2",
     "winston": "^3.2.1",
     "word-wrap": "^1.2.3",
     "xstate": "^4.8.0"

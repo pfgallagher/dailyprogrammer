@@ -169,3 +169,6 @@ export const basicDeepReverse = <T>(arr: T[]): T[] =>
 
 export const posIdxFromNegIdx = <T>(arr: T[], i: number): number =>
 	arr.length - i - 1;
+
+export const escapeRegExp = (str: string): string =>
+	str.replace(/[.*+\-?^${}()|[\]\\]/g, "\\$&");

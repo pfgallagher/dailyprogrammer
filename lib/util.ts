@@ -172,3 +172,12 @@ export const posIdxFromNegIdx = <T>(arr: T[], i: number): number =>
 
 export const escapeRegExp = (str: string): string =>
 	str.replace(/[.*+\-?^${}()|[\]\\]/g, "\\$&");
+
+export const trunc = (n: number, nDecPlaces: number = 0): number => {
+	const nStr = n.toString();
+	const decimalI = nStr.indexOf(".") + 1;
+	if (decimalI >= 0) {
+		return parseFloat(nStr.slice(0, decimalI + nDecPlaces));
+	}
+	return n;
+};

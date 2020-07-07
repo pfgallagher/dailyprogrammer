@@ -181,3 +181,7 @@ export const trunc = (n: number, nDecPlaces: number = 0): number => {
 	}
 	return n;
 };
+
+export const isEven = (n: number): boolean => !(n % 2);
+
+export const isOdd = (n: number): boolean => !isEven(n);

@@ -185,3 +185,9 @@ export const trunc = (n: number, nDecPlaces: number = 0): number => {
 export const isEven = (n: number): boolean => !(n % 2);
 
 export const isOdd = (n: number): boolean => !isEven(n);
+
+export const interleave = (...strs: string[]): string => {
+	const ilStr = strs.map(str => str[0]).join("");
+	const nextStrs = strs.map(str => str.slice(1)).filter(str => str.length);
+	return nextStrs.length ? ilStr.concat(interleave(...nextStrs)) : ilStr;
+};

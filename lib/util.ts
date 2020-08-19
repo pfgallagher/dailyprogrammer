@@ -191,3 +191,13 @@ export const interleave = (...strs: string[]): string => {
 	const nextStrs = strs.map(str => str.slice(1)).filter(str => str.length);
 	return nextStrs.length ? ilStr.concat(interleave(...nextStrs)) : ilStr;
 };
+
+export const count = (source: string, target: string): number => {
+	let charCount = 0;
+	for (const char of [...source]) {
+		if (char === target) {
+			charCount++;
+		}
+	}
+	return charCount;
+};

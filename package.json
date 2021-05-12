@@ -20,7 +20,7 @@
     "faker": "^4.1.0",
     "fs": "0.0.2",
     "inquirer": "^7.0.0",
-    "mathjs": "^6.2.3",
+    "mathjs": "^7.5.1",
     "pngjs": "^3.4.0",
     "snoowrap": "^1.21.0",
     "tonegenerator": "^0.3.2",
